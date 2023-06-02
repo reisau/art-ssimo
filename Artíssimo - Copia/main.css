@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "Josefin Sans" ;
+    src: url(./componentes/static/JosefinSans-Medium.ttf);
+    font-weight: normal;
+}
+
+body{
+    background-color: #FFECE8; 
+    margin: 0px;
+    padding: 0px;
+}
+ header{
+    width: 100%;
+    position: fixed;
+
+    background-color: #F786AA;
+}
+h1{
+    display:grid;
+    justify-content:flex-end;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    color: #FFECE8;
+}
+header + div{
+    padding-top: 100px;
+}
+
+.p{
+    width: 100%;
+    height: 250px;
+    background-color: #FFA8A9;
+    border-radius: 56px;
+}
+
+#logo{
+    margin-left: 20px;
+    margin-top: -30px;
+}
